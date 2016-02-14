@@ -16,7 +16,9 @@
         android:id="@+id/toolbartext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My App Portfolio" />
+        android:text="My App Portfolio"
+        android:textColor="#ffffff"
+        />
 
 
     <TextView
@@ -26,12 +28,14 @@
         android:id="@+id/appHeading"
         android:layout_below="@+id/toolbartext"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp" />
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="SPOTIFY STREAMER"
+        android:background="#FFA000"
         android:id="@+id/spotifyApp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/appHeading"
@@ -39,9 +43,10 @@
         />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="SCORES APP"
+        android:background="#FFA000"
         android:id="@+id/scoresApp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/spotifyApp"
@@ -49,8 +54,9 @@
         />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:background="#FFA000"
         android:text="LIBRARY APP"
         android:id="@+id/libraryApp"
         android:layout_centerHorizontal="true"
@@ -59,9 +65,10 @@
         />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="BUILD IT BIGGER"
+        android:background="#FFA000"
         android:id="@+id/builditApp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/libraryApp"
@@ -69,9 +76,10 @@
         />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="XYZ READER"
+        android:background="#FFA000"
         android:id="@+id/xyzApp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/builditApp"
@@ -79,9 +87,11 @@
         />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="CAPSTONE: MY OWN APP"
+        android:background="#673AB7"
+        android:textColor="#ffffff"
         android:id="@+id/capstoneApp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/builditApp"
