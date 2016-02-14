@@ -19,5 +19,73 @@
         android:text="My App Portfolio" />
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My NanoDegree Apps!"
+        android:id="@+id/appHeading"
+        android:layout_below="@+id/toolbartext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPOTIFY STREAMER"
+        android:id="@+id/spotifyApp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/appHeading"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORES APP"
+        android:id="@+id/scoresApp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spotifyApp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIBRARY APP"
+        android:id="@+id/libraryApp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/scoresApp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUILD IT BIGGER"
+        android:id="@+id/builditApp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/libraryApp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XYZ READER"
+        android:id="@+id/xyzApp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/builditApp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAPSTONE: MY OWN APP"
+        android:id="@+id/capstoneApp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/builditApp"
+        android:layout_marginTop="10dp"
+        />
 
 </RelativeLayout>
