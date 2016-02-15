@@ -23,27 +23,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void spotifyClick(View view) {
-        Toast.makeText(this,"This button will launch my Spotify App",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"This button will launch my Spotify App",Toast.LENGTH_SHORT).show();
     }
 
     public void scoresClick(View view) {
-        Toast.makeText(this,"This button will launch my Scores App",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"This button will launch my Scores App",Toast.LENGTH_SHORT).show();
     }
 
     public void libraryClick(View view) {
-        Toast.makeText(this,"This button will launch my Library App",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"This button will launch my Library App",Toast.LENGTH_SHORT).show();
     }
 
     public void buildClick(View view) {
-        Toast.makeText(this,"This button will launch my Build It Bigger App",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"This button will launch my Build It Bigger App",Toast.LENGTH_SHORT).show();
     }
 
     public void xyzClick(View view) {
-        Toast.makeText(this,"This button will launch my XYZ Reader App",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"This button will launch my XYZ Reader App",Toast.LENGTH_SHORT).show();
     }
 
     public void capstoneClick(View view) {
-        Toast.makeText(this,"This button will launch my Capstone: My Own App",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"This button will launch my Capstone: My Own App",Toast.LENGTH_SHORT).show();
     }
     /*
     @Override
