@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,8 +19,33 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
     }
 
+    public void spotifyClick(View view) {
+        Toast.makeText(this,"This button will launch my Spotify App",Toast.LENGTH_LONG).show();
+    }
+
+    public void scoresClick(View view) {
+        Toast.makeText(this,"This button will launch my Scores App",Toast.LENGTH_LONG).show();
+    }
+
+    public void libraryClick(View view) {
+        Toast.makeText(this,"This button will launch my Library App",Toast.LENGTH_LONG).show();
+    }
+
+    public void buildClick(View view) {
+        Toast.makeText(this,"This button will launch my Build It Bigger App",Toast.LENGTH_LONG).show();
+    }
+
+    public void xyzClick(View view) {
+        Toast.makeText(this,"This button will launch my XYZ Reader App",Toast.LENGTH_LONG).show();
+    }
+
+    public void capstoneClick(View view) {
+        Toast.makeText(this,"This button will launch my Capstone: My Own App",Toast.LENGTH_LONG).show();
+    }
+    /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -41,5 +67,5 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    
+    */
 }
