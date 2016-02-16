@@ -23,7 +23,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My NanoDegree Apps!"
+        android:text="@string/appHeading"
         android:id="@+id/appHeading"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
@@ -32,7 +32,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Spotify Streamer"
+        android:text="@string/spotify"
         android:textAllCaps="true"
         android:background="#FFA000"
         android:id="@+id/spotifyApp"
@@ -45,7 +45,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Scores App"
+        android:text="@string/scoresApp"
         android:textAllCaps="true"
         android:background="#FFA000"
         android:id="@+id/scoresApp"
@@ -59,7 +59,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="#FFA000"
-        android:text="Library App"
+        android:text="@string/libraryApp"
         android:textAllCaps="true"
         android:id="@+id/libraryApp"
         android:layout_centerHorizontal="true"
@@ -71,7 +71,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Build it bigger"
+        android:text="@string/buildApp"
         android:textAllCaps="true"
         android:background="#FFA000"
         android:id="@+id/builditApp"
@@ -84,7 +84,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="xyz reader"
+        android:text="@string/xyzApp"
         android:textAllCaps="true"
         android:background="#FFA000"
         android:id="@+id/xyzApp"
@@ -97,7 +97,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Capstone: My own app"
+        android:text="@string/capstoneApp"
         android:textAllCaps="true"
         android:background="#673AB7"
         android:textColor="#ffffff"
